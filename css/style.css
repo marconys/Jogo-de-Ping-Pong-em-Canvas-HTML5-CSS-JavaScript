@@ -11,12 +11,21 @@ html, body{
     flex-direction: column;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 90px;
+    margin-top: 50px;
     gap: 5px;   
 
 }
 
-.principal button{
+.botoes{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ccc;
+    border: 1px solid #000;
+}
+
+.botoes button{
     display: flex;
     justify-content: center;
     width: 100px;
